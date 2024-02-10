@@ -5,9 +5,9 @@ const yesBtn = document.querySelector(".yesBtn");
 const noBtn = document.querySelector(".noBtn");
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML ="<h1>peppa pig</h1>";
+  question.innerHTML ="<h1>Correct! Good Answer. I love you so much!</h1>";
   gif.src =
-    "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
+    "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGkxc3A2ZzJ6Y3ppMGNmMms0NjU3cTh3YzhvYjE4NDVsMjllcGd5OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Fq00idJgaECCk/giphy.gif";
 });
 
 noBtn.addEventListener("mouseover", () => {
