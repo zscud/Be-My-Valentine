@@ -33,7 +33,6 @@ h2 {
     margin-top: 50px;
 }
 button {
-    display: block;
     position: absolute;
     width: 150px;
     height: inherit;
