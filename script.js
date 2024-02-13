@@ -10,8 +10,13 @@ yesBtn.addEventListener("click", () => {
   noBtn.innerHTML = "";
 });
 
+noBtn.addEventListener("click", () => {
+  question.innerHTML ="<h2>Wow. I cant beleive you would do that.</h2>";
+  gif.src = "https://tenor.com/en-GB/view/catsad-gif-10975270751505630184";
+  noBtn.innerHTML = "";
+});
+
 noBtn.addEventListener("mouseover", () => {
-  question.innerHTML ="<h2> Wow.</h2>";
   const noBtnRect = noBtn.getBoundingClientRect();
   const maxX = window.innerWidth - noBtnRect.width;
   const maxY = window.innerHeight - noBtnRect.height;
