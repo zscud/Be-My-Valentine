@@ -11,8 +11,8 @@ yesBtn.addEventListener("click", () => {
 });
 
 noBtn.addEventListener("click", () => {
-  question.innerHTML ="<h2>Wow. That is actually so mean. I cant believe you. I'll never have a valentine :.(" </h2>";
+  question.innerHTML ="<h2>Wow. That is actually so mean. I can't believe you. I'll never have a valentine.</h2>";
   gif.src = "https://media1.tenor.com/m/mE_-mVk6Q-gAAAAd/catsad.gif";
-  noBtn.innerHTML = "";
+  yesBtn.innerHTML = "";
 });
 
